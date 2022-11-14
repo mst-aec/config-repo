@@ -1,0 +1,4 @@
+example:
+  prop:
+    from:
+      yml: world
