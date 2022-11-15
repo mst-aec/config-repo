@@ -8,3 +8,9 @@ spring:
             - Path=/demo/**
           filters:
             - StripPrefix=1
+        - id: example-api
+          uri: lb://example-api
+          predicates:
+            - Path=/example/**
+          filters:
+            - StripPrefix=1
